@@ -1,8 +1,8 @@
 *******************************************************************************************************************
 						
-						     IR FOR TEXT ANALYSIS
+						                                IR FOR TEXT ANALYSIS
 
-						     By:- Abhishek Kharche
+						                                By:- Abhishek Kharche
 
 
 *******************************************************************************************************************
@@ -15,26 +15,28 @@ evaluated by someone in past years.
 Scripting Language:- Perl, Shell scripting.
 
 *******************************************************************************************************************
-					              FILES IN THE PROJECT
+					                                    FILES IN THE PROJECT
 *******************************************************************************************************************
 
-Source Files:- 	1. norm_tf.pl
-		2. wdf.pl
-		3. query_as_a_vector.pl
-		4. similarity.pl
-		5. VSM.pl
-		6. VSM_effectiveness.pl
+Source Files:- 											
+		1. norm_tf.pl 	                                                                         
+                2. wdf.pl									
+                3. query_as_a_vector.pl								 
+                4. similarity.pl									
+                5. VSM.pl									
+                6. VSM_effectiveness.pl
 
-Text Files:-	1. norm_tf.txt
-		2. wdf.txt
-		3. tf_transpose.txt
-		4. query_as_a_vector.txt
-		5. similarity.txt
-		6. VSM.txt
-		7. VSM_effectiveness.txt (can be used to make csv file)
+Text Files:-											
+1. norm_tf.txt												
+2. wdf.txt											
+3. tf_transpose.txt										
+4. query_as_a_vector.txt									
+5. similarity.txt											
+6. VSM.txt											
+7. VSM_effectiveness.txt 
 
 *******************************************************************************************************************
-						       IMPLEMENTATION
+						                                   IMPLEMENTATION
 *******************************************************************************************************************
 
 There are 6 source files in this project. The implementation for all of them are as follow;
@@ -69,7 +71,7 @@ There are 6 source files in this project. The implementation for all of them are
    Excel for better view.
 
 *******************************************************************************************************************
-						       How TO RUN
+						                                   How TO RUN
 *******************************************************************************************************************
 
 You must have perl compiler installed in your system.
@@ -84,7 +86,7 @@ in the programs. But you have to make sure that you save them in the same catago
 compilation errors you can give command as follows:- perl -c "filepath/filename"
 
 *******************************************************************************************************************
-						        THANK YOU
+						                                    THANK YOU
 *******************************************************************************************************************
 
 
