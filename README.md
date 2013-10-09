@@ -1,21 +1,21 @@
 *******************************************************************************************************************
 						
-						                                      IR FOR TEXT ANALYSIS
+						     IR FOR TEXT ANALYSIS
 
-						                                      By:- Abhishek Kharche
+						     By:- Abhishek Kharche
 
 
 *******************************************************************************************************************
 
-This is the project to implement Information Retirieval for text analysis. I used open source Java Software 
-jEdit4.3 for text analysis. The porject extracts the method contents from the source and create a corpus of terms
-after splitting and stemming the words. This corpus is then parsed and similarity against user queries for each
-document is found. These results are then compared against the GoldSet which is the set evaluated by someone in
-past years.
+This is the project to implement Information Retrieval for text analysis. I used open source Java Software 
+jEdit4.3 for text analysis. The project extracts the method contents from the source and creates a corpus of 
+possible terms after splitting and stemming the words. This corpus is then parsed and cosine similarity against 
+user queries for each document is found. These results are then compared against the GoldSets which are the sets 
+evaluated by someone in past years.
 Scripting Language:- Perl, Shell scripting.
 
 *******************************************************************************************************************
-					                                      	FILES IN THE PROJECT
+					              FILES IN THE PROJECT
 *******************************************************************************************************************
 
 Source Files:- 	1. norm_tf.pl
@@ -34,7 +34,7 @@ Text Files:-	1. norm_tf.txt
 		7. VSM_effectiveness.txt (can be used to make csv file)
 
 *******************************************************************************************************************
-						                                      IMPLEMENTATION
+						       IMPLEMENTATION
 *******************************************************************************************************************
 
 There are 6 source files in this project. The implementation for all of them are as follow;
@@ -69,7 +69,7 @@ There are 6 source files in this project. The implementation for all of them are
    Excel for better view.
 
 *******************************************************************************************************************
-						                                       How TO RUN
+						       How TO RUN
 *******************************************************************************************************************
 
 You must have perl compiler installed in your system.
@@ -84,7 +84,7 @@ in the programs. But you have to make sure that you save them in the same catago
 compilation errors you can give command as follows:- perl -c "filepath/filename"
 
 *******************************************************************************************************************
-						                                       THANK YOU
+						        THANK YOU
 *******************************************************************************************************************
 
 
